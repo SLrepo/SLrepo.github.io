@@ -9,18 +9,22 @@
 </div>
 
 Hi, my name is Sihui Li. I'm a Ph.D. candidate in computer science at [Colorado School of Mines](https://www.mines.edu/). 
-I work with Dr. Dantam in the [DyALab](http://dyalab.mines.edu/). 
+I work with [Dr. Dantam](http://www.neil.dantam.name/) in the [DyALab](http://dyalab.mines.edu/).
 
 Email Address: li@mine.edu
 
 Location: Brown Hall 340
 
+My current research focuses on robot motion planning and task planning. 
+I believe that one key to any robotics application is the algorithm running behind and driving all the hardware.
+Because of this, one of my goals is to develop robust, generally applicable, and theoretically complete algorithms for robots. 
+In one area of my research, I look at motion planning infeasibility proofs that demonstrate the non-existence of configuration space paths. This also leads to a narrow passage motion planning algorithm that I'm currently working on. 
+Applying these algorithms in context-sensitive scenarios shows advantages on robotic systems.
+
+
+
 
 <p style="clear:both"></p>
-
-
-
-
 
 
 <h3>Publications<a name="pubs"></a><p style="text-align: left;"></h3>
