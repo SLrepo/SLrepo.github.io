@@ -11,7 +11,7 @@
 Hi, my name is Sihui Li. I'm a Ph.D. candidate in computer science at [Colorado School of Mines](https://www.mines.edu/). 
 I work with [Dr. Dantam](http://www.neil.dantam.name/) in the [DyALab](http://dyalab.mines.edu/).
 
-Email Address: li@mine.edu
+Email Address: li@mines.edu
 
 Location: Brown Hall 340
 
