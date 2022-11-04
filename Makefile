@@ -10,6 +10,7 @@ PANDOC_HTML_OPTIONS=-t html5
 htmls: $(htmls)
 %.html: src/%.md
 	$(PANDOC) -s --toc -c style.css -o $@ $<
+	sed -i 's/>index</>Sihui Li</g' $@
 	
 clean:
 	@rm -rf ./*.html;
