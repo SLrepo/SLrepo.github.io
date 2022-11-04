@@ -5,7 +5,7 @@
 <h3>About Me<a name="me"></a></h3>
 
 <div style="float: left;margin-right: 1em;">
-<img src="img/Sihui.jpg" width="400" alt="me"/>
+<img src="img/sihui2.png" width="200" alt="me"/>
 </div>
 
 Hi, my name is Sihui Li. I'm a Ph.D. candidate in computer science at [Colorado School of Mines](https://www.mines.edu/). 
@@ -14,6 +14,8 @@ I work with [Dr. Dantam](http://www.neil.dantam.name/) in the [DyALab](http://dy
 Email Address: li@mines.edu
 
 Location: Brown Hall 340
+
+<p style="clear:both"></p>
 
 My current research focuses on robot motion planning and task planning. 
 I believe that one key to any robotics application is the algorithm running behind and driving all the hardware.
