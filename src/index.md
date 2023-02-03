@@ -31,7 +31,9 @@ Applying these algorithms in context-sensitive scenarios shows advantages on rob
 
 <h3>Publications<a name="pubs"></a><p style="text-align: left;"></h3>
 
-* Sihui Li, Neil Dantam, "A sampling and learning framework to prove motion planning infeasibility", The International Journal of Robotics Research, 2022 (Accepted). [Download](pdfs/li2023sdcl.pdf)
+* Sihui Li, Neil Dantam, "Sample-Driven Connectivity Learning for Motion Planning", International Conference on Robotics and Automation (ICRA), 2023 (Accepted). [Download](pdfs/li2023sdcl.pdf)
+
+* Sihui Li, Neil Dantam, "A sampling and learning framework to prove motion planning infeasibility", The International Journal of Robotics Research (IJRR), 2023. [Download](https://doi.org/10.1177/02783649231154674)
 
 * Sihui Li, Neil Dantam, "Exponential Convergence of Infeasibility Proofs For Kinematic Motion Planning", The Workshop on the Algorithmic Foundations of Robotics (WAFR), 2022.
 
