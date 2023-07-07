@@ -9,7 +9,8 @@
 </div>
 
 Hi, my name is Sihui Li. I'm a Ph.D. candidate in computer science at [Colorado School of Mines](https://www.mines.edu/). 
-I work with [Dr. Dantam](http://www.neil.dantam.name/) in the [DyALab](http://dyalab.mines.edu/).
+I work with [Dr. Dantam](http://www.neil.dantam.name/) in the [DyALab](http://dyalab.mines.edu/). 
+I will graduate Spring 2024, and will be looking for acadamic jobs starting this August. I would greatly appreciate it if you want to share any acadamic job information with me. 
 
 Email Address: li@mines.edu
 
@@ -24,24 +25,28 @@ In one area of my research, I look at motion planning infeasibility proofs that 
 Applying these algorithms in context-sensitive scenarios shows advantages on robotic systems.
 
 
+<h3>News<a name="news"></a><p style="text-align: left;"></h3>
+
+I will be joining the [RSS pioneer workshop 2023](https://sites.google.com/view/rsspioneers2023/) in Daegu, Republic of Korea on July 9th.
 
 
 <p style="clear:both"></p>
 
 
 <h3>Publications<a name="pubs"></a><p style="text-align: left;"></h3>
+* Sihui Li, Sriram Siva, Terran Mott, Tom Williams, Hao Zhang, and Neil Dantam, "Failure Explanation in Privacy-Sensitive Contexts: An Integrated Systems Approach", International Symposium on Robot and Human Interactive Communication (RO-MAN), 2023.
 
-* Sihui Li, Neil Dantam, "Sample-Driven Connectivity Learning for Motion Planning", International Conference on Robotics and Automation (ICRA), 2023 (Accepted). [Download](pdfs/li2023sdcl.pdf)
+* Sihui Li, Neil Dantam, "Sample-Driven Connectivity Learning for Motion Planning", International Conference on Robotics and Automation (ICRA), 2023. Acceptance Rate 43%[Download](pdfs/li2023sdcl.pdf)
 
 * Sihui Li, Neil Dantam, "A sampling and learning framework to prove motion planning infeasibility", The International Journal of Robotics Research (IJRR), 2023. [Download](https://doi.org/10.1177/02783649231154674)
 
-* Sihui Li, Neil Dantam, "Exponential Convergence of Infeasibility Proofs For Kinematic Motion Planning", The Workshop on the Algorithmic Foundations of Robotics (WAFR), 2022.
+* Sihui Li, Neil Dantam, "Exponential Convergence of Infeasibility Proofs For Kinematic Motion Planning", Algorithmic Foundations of Robotics (WAFR), 2022. Acceptance Rate 56%. [Download](https://doi.org/10.1007/978-3-031-21090-7_18)
 
-* Ryan Blake Jackson, Sihui Li, Santosh Balajee Banisetty, Sriram Siva, Hao Zhang, Neil Dantam, and Tom Williams. "An Integrated Approach to Context-Sensitive Moral Cognition in Robot Cognitive Architectures", IROS 2021, in finalists for Best Paper Award on Cognitive Robotics.
+* Ryan Blake Jackson, Sihui Li, Santosh Balajee Banisetty, Sriram Siva, Hao Zhang, Neil Dantam, and Tom Williams. "An Integrated Approach to Context-Sensitive Moral Cognition in Robot Cognitive Architectures", IROS 2021, in finalists for Best Paper Award on Cognitive Robotics. Acceptance Rate 45%. [Download](http://dx.doi.org/10.1109/IROS51168.2021.9636434)
 
-* Sihui Li, Neil T. Dantam."Learning Proofs of Motion Planning Infeasibility", RSS 2021.
+* Sihui Li, Neil T. Dantam."Learning Proofs of Motion Planning Infeasibility", RSS 2021. Acceptance Rate 27%. [Download](https://www.roboticsproceedings.org/rss17/p064.pdf)
 
-* Sihui Li, Neil T. Dantam, "Towards General Infeasibility Proofs in Motion Planning", IROS 2020. 
+* Sihui Li, Neil T. Dantam, "Towards General Infeasibility Proofs in Motion Planning", IROS 2020. Acceptance Rate 47%. [Download](http://dx.doi.org/10.1109/IROS45743.2020.9340804)
 
 * Sihui Li, Raagini Rameshwar, Ann Marie Votta, Cagdas Onal. "Intuitive Control of a Robotic Arm and Hand System with Pneumatic Haptic Feedback", IEEE Robotics and Automation Letters with IROS 2019.
 
