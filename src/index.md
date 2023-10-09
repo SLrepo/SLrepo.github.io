@@ -54,7 +54,7 @@ I joined the [RSS pioneer workshop 2023](https://sites.google.com/view/rsspionee
 
 
 <h3>Workshops<a name="pubs"></a><p style="text-align: left;"></h3>
-* Sihui Li, Neil Dantam, “Learning Explicit Infeasibility from Implicit Configuration Space Connectivity”, IROS Workshop on Task and Motion Planning: from Theory to Practice, 2023. 	
+* Sihui Li, Neil Dantam, “Infeasibility Proofs in Task and Motion Planning”, IROS Workshop on Task and Motion Planning: from Theory to Practice, 2023. 	
 
 * Sihui Li, Neil Dantam, “Learning Explicit Infeasibility from Implicit Configuration Space Connectivity”, RSS
 Workshop on Implicit Representations for Robotic Manipulation, 2022.
