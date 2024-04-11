@@ -10,7 +10,7 @@
 
 Hi, my name is Sihui Li. I'm a Ph.D. candidate in computer science at [Colorado School of Mines](https://www.mines.edu/). 
 I work with [Dr. Dantam](http://www.neil.dantam.name/) in the [DyALab](http://dyalab.mines.edu/). 
-I'm graduating next Spring, and am actively looking for academic jobs now, faculty positions and postdocs. I would greatly appreciate it if you want to share any academic/research-focused job information with me. 
+I'm graduating this Spring, and will join Washington State University Tri-Cities as a tenure-track assistant professor in Fall 2024. 
 
 Email Address: li@mines.edu
 
@@ -27,7 +27,8 @@ Applying these algorithms in context-sensitive scenarios shows the advantages on
 
 <h3>News<a name="news"></a><p style="text-align: left;"></h3>
 
-I joined the [RSS pioneer workshop 2023](https://sites.google.com/view/rsspioneers2023/) in Daegu, Republic of Korea on July 9th.
+* I defensed my Ph.D. thesis on 04/02/2023. 
+* I joined the [RSS pioneer workshop 2023](https://sites.google.com/view/rsspioneers2023/) in Daegu, Republic of Korea on July 9th.
 
 
 <p style="clear:both"></p>
