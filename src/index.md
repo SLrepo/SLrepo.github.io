@@ -27,7 +27,7 @@ Applying these algorithms in context-sensitive scenarios shows the advantages on
 
 <h3>News<a name="news"></a><p style="text-align: left;"></h3>
 
-* I defensed my Ph.D. thesis on 04/02/2023. 
+* I defended my Ph.D. thesis on 04/02/2024. 
 * I joined the [RSS pioneer workshop 2023](https://sites.google.com/view/rsspioneers2023/) in Daegu, Republic of Korea on July 9th.
 
 
