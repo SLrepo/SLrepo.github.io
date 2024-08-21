@@ -2,25 +2,117 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome file</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 20px;
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+        .image-text-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #e9f5e9;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .image-text-container img {
+            width: 30%;
+            height: auto;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        .image-text-container .text {
+            width: 70%;
+        }
+        .image-text-container .text h2 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+        .image-text-container .text p {
+            margin-bottom: 0;
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+        ol, ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ol li, ul li {
+            background-color: #e9f5e9;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        ol ol li, ul ul li, ul ol li {
+            background-color: #f9f9f9;
+            margin: 5px 0;
+            padding: 10px;
+        }
+        ul ul ul li {
+            background-color: #ffffff;
+            margin: 5px 0;
+            padding: 10px;
+        }
+        .media {
+            margin-top: 15px;
+            text-align: center;
+        }
+        img, iframe {
+            border-radius: 8px;
+            max-width: 100%;
+            weight: auto;
+            height: 300px;
+            margin-top: 10px;
+        }
+        .download-link a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .download-link a:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <title>Research Projects with Enhanced Layout</title>
 </head>
 
 <body class="stackedit">
-  <div class="stackedit__html"><p><a href="#-me">Home</a> | <a href="#pubs">Publications</a> | <a href="#projects">Projects</a></p>
-<h3>About Me<a></a></h3>
-<div>
-<img src="img/sihui2.png" width="200" alt="me">
-</div>
-<p>Hi, my name is Sihui Li.  <a href="https://saymyname.io/cards/card_ZPBvxD">Here is a pronunciation of my name</a>.<br>
-I’m an assistant professor of computer science at <a href="https://tricities.wsu.edu/">Washington State University Tri-Cities</a>. I joined WSU in Fall 2024.  I reveiced my PhD degree in computer science from <a href="https://www.mines.edu/">Colorado School of Mines</a>, where I worked with <a href="http://www.neil.dantam.name/">Dr. Dantam</a> in the <a href="http://dyalab.mines.edu/">DyALab</a>. Before that, I have a Master’s degree in Robotics from WPI and a Master’s degree in Mechanical Engineering from RPI.</p>
+  <div class="stackedit__html"><p><a href="#me">Home</a> | <a href="#pubs">Publications</a> | <a href="research.html">Research</a></p>
+<div class="image-text-container">
+        <img src="img/headshot2024.JPG" alt="sihui">
+        <div class="text">
+            <h2 id="me">About Me</h2>
+            <p>
+My name is Sihui Li.  <a href="https://saymyname.io/cards/card_ZPBvxD" target="_blank">Here is a pronunciation of my name</a>.
+I'm an assistant professor of computer science at <a href="https://tricities.wsu.edu/" target="_blank">Washington State University Tri-Cities</a>. I joined WSU in Fall 2024.  I reveiced my PhD degree in computer science from <a href="https://www.mines.edu/" target="_blank">Colorado School of Mines</a>, where I worked with <a href="http://www.neil.dantam.name/" target="_blank">Dr. Dantam</a> in the <a href="http://dyalab.mines.edu/" target="_blank">DyALab</a>. Before that, I have a Master's degree in Robotics from WPI and a Master's degree in Mechanical Engineering from RPI. 
+            </p>
+        </div>
+    </div>
 <p>Email Address: <a href="mailto:sihui.li@wsu.edu">sihui.li@wsu.edu</a></p>
 <p>Location: Floyd 134D, Tri-Cities campus.</p>
 <p></p>
 <p>My research focuses on robot planning algorithms, combined with learning techniques, aiming to enhance the autonomy and efficiency of robotic systems. One area of my work involves investigating motion planning infeasibility proofs in a robot’s configuration space, which is crucial for understanding and addressing the limitations of robot’s movement in task and motion planning in complex environments. Given that the effectiveness of any robotic system hinges on the algorithms that control its hardware and sensors, one of my central goals is to develop robust, broadly applicable, and theoretically complete algorithms.</p>
-<p>I’m curently looking for motivated Master’s and PhD student to join my lab. If you want to do research on algorithmic robotics, contact me directly through email.</p>
+<p><i>I’m curently looking for motivated Master’s and PhD student to join my lab. If you want to do research on algorithmic robotics, contact me directly through email. </i></p>
 <h3>News<a></a><p></p></h3>
 <ul>
 <li>Our paper <a href="pdfs/Phillips2024visibility.pdf">Park Rangers’ Problem: Motion Planning for Sequential Visibility Requirements</a> is accepted to <a href="https://algorithmic-robotics.org/">WAFR 2024</a>!</li>
@@ -30,10 +122,10 @@ I’m an assistant professor of computer science at <a href="https://tricities.w
 <li>I joined the <a href="https://sites.google.com/view/rsspioneers2023/">RSS pioneer workshop 2023</a> in Daegu, Republic of Korea on July 9th.</li>
 </ul>
 <p></p>
-<h3>Journal Publications<a></a><p></p></h3>
+<h3 id="pubs">Journal Publications<a></a><p></p></h3>
 <ul>
 <li>
-<p>Sihui Li, Neil Dantam, “Scaling Infeasibility Proofs via Concurrent, Codimension-one, Locally-updated Coxeter Triangulation”, IEEE Robotics and Automation Letters (RA-L) (Accepted), 2023. <a href="pdfs/li2023scaling.pdf">Download</a>. <strong>DOI:</strong> <a href="https://doi.org/10.1109/LRA.2023.3327655">10.1109/LRA.2023.3327655</a></p>
+<p>Sihui Li, Neil Dantam, “Scaling Infeasibility Proofs via Concurrent, Codimension-one, Locally-updated Coxeter Triangulation”, IEEE Robotics and Automation Letters (RA-L), 2023. <a href="pdfs/li2023scaling.pdf">Download</a>. <strong>DOI:</strong> <a href="https://doi.org/10.1109/LRA.2023.3327655">10.1109/LRA.2023.3327655</a></p>
 </li>
 <li>
 <p>Sihui Li, Neil Dantam, “A sampling and learning framework to prove motion planning infeasibility”, The International Journal of Robotics Research (IJRR), 2023. <a href="pdfs/li2023infeasible.pdf">Download</a>. <strong>DOI:</strong> <a href="https://doi.org/10.1177/02783649231154674">10.1177/02783649231154674</a></p>

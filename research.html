@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 20px;
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+        ol, ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ol li, ul li {
+            background-color: #e9f5e9;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        ol ol li, ul ul li, ul ol li {
+            background-color: #f9f9f9;
+            margin: 5px 0;
+            padding: 10px;
+        }
+        ul ul ul li {
+            background-color: #ffffff;
+            margin: 5px 0;
+            padding: 10px;
+        }
+        .media {
+            margin-top: 15px;
+            text-align: center;
+        }
+        img, iframe {
+            border-radius: 8px;
+            max-width: 100%;
+            weight: auto;
+            height: 300px;
+            margin-top: 10px;
+        }
+        .download-link a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .download-link a:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <title>Research Projects with Enhanced Layout</title>
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h3>Research<a></a></h3>
+My research primarily focuses on various facets of robot planning. Below is a summary of the research projects I have completed or contributed to.
+<p>
+</p><ul>
+<li><a href="#inf">Motion Planning Infeasibility Proofs</a></li>
+<li><a href="#constraint">Constraint and Narrow Passage Motion Planning</a></li>
+<li><a href="#HRI">Planning in HRI</a></li>
+<li><a href="#TAMP">Task and Motion Planning</a></li>
+<li><a href="#teleop">Teleoperation</a></li>
+</ul>
+<h3 id="inf">Motion planning infeasibility proofs</h3>
+Sampling-based motion planners are effective in high-dimensional spaces but are only probabilistically complete. Consequently, these planners cannot provide a definite answer if no plan exists, which is important for high-level scenarios, such as task-motion planning. This thread of work focuses on finding infeasibility guarantees for kinematic motion planning problems. 
+<ul>
+<li><strong>Summary</strong>:
+<ul>
+<li>We define motion planning infeasibility proof as a manifold in the configuration space that exists entirely in the obstacle region of the configuration space and separates the start and the goal.</li>
+<li>Starting from our first algorithm that constructs infeasibility proofs in the configuration space directly, now we have developed a learning-based algorithm to generate infeasibility proofs more efficiently. This work is still in progress.</li>
+</ul>
+</li>
+</ul>
+<ul>
+    <li><strong>Publications</strong>
+        <ol>
+            <li>Sihui Li, Neil Dantam, “Scaling Infeasibility Proofs via Concurrent, Codimension-one, Locally-updated Coxeter Triangulation”, IEEE Robotics and Automation Letters (RA-L), 2023.  <a href="pdfs/li2023scaling.pdf">Download</a>.
+                        <div class="media">
+                            <img src="img/scaling.png" width="450" alt="scaling">
+                            <iframe height="220" src="https://www.youtube.com/embed/aSe5LKu1Ba4" title="YouTube video player" allowfullscreen="">&#10;                            </iframe>
+                        </div>
+            </li>
+            <li>Sihui Li, Neil Dantam, "A sampling and learning framework to prove motion planning infeasibility", The International Journal of Robotics Research (IJRR), 2023. <a href="pdfs/li2023infeasible.pdf">Download</a>.
+            </li>
+        <li>Sihui Li, Neil Dantam, "Exponential Convergence of Infeasibility Proofs For Kinematic Motion Planning", Algorithmic Foundations of Robotics (WAFR), 2022.  <a href="pdfs/li2022exponential.pdf">Download</a>.
+                        <div class="media">
+                            <img src="img/exp.gif" width="200" alt="exp">
+                            <iframe height="220" src="https://www.youtube.com/embed/NBR2G4gD7XI?start=1260&amp;end=2001" title="YouTube video player" allowfullscreen="">&#10;                            </iframe>
+                        </div>
+            </li>    
+            <li>Sihui Li, Neil T. Dantam."Learning Proofs of Motion Planning Infeasibility", RSS 2021.  <a href="https://www.roboticsproceedings.org/rss17/p064.pdf">Download</a>.
+                        <div class="media">
+                            <img src="img/learn-inf.gif" width="300" alt="inf">
+                            <iframe height="220" src="https://www.youtube.com/embed/SA4eWG9H_AU" title="YouTube video player" allowfullscreen="">&#10;                            </iframe>
+                        </div>
+            </li>   
+            <li> Sihui Li, Neil T. Dantam, "Towards General Infeasibility Proofs in Motion Planning", IROS 2020.  <a href="pdfs/li2020towards.pdf">Download</a>.
+                        <div class="media">
+                            <img src="img/jaco.gif" width="300" alt="towards">
+                            <iframe height="220" src="https://www.youtube.com/embed/y6zCKPsb7jE" title="YouTube video player" allowfullscreen="">&#10;                            </iframe>
+                        </div>
+            </li>   
+            </ol>
+    </li>
+</ul>
+<h3 id="constraint">Constraint and Narrow Passage Motion</h3>
+ Many robot tasks impose constraints on the
+workspace. For example, a robot may need to move a container
+without spilling its contents or open a door following the
+doorknob’s arc. Such constraints may induce narrow vol-
+umes in the configuration space, traditionally a challenge for
+sampling-based methods, and further cause infeasibility. 
+<ul>
+<li><strong>Summary</strong>:
+<ul>
+<li>we propose a learning-based strategy to sample in these narrow passages, which improves overall planning time. Our algorithm (SDCL) first learns from the configuration space planning graphs and then uses the learned information to effectively generate narrow passage samples.</li>
+<li>We extend sample-driven connectivity learning (SDCL) to develop a sampling ensemble for workspace constraints. In particular, the ensemble combines SDCL, projection via dual quaternion optimization, and random sampling. These complementary sampling approaches support efficient and robust planning under workspace constraints. Further, this framework offers the ability to determine infeasibility under workspace constraints, which is unaddressed by previous constrained planning methods.</li>
+</ul>
+</li>
+</ul>
+<ul>
+    <li><strong>Publications</strong>
+        <ol>
+            <li>A Sampling Ensemble for Asymptotically Complete Motion Planning with Volume-Reducing Workspace Constraints", International Conference on Intelligent Robots and Systems (IROS), 2024.  <a href="pdfs/li2024constraint.pdf">Download</a>.
+                        <div class="media">
+                            <img src="img/real.png" width="450" alt="real">
+                            <iframe height="220" src="https://www.youtube.com/embed/5cmpuUhR-6U" title="YouTube video player" allowfullscreen="">&#10;                            </iframe>
+                        </div>
+            </li>
+            <li>Sihui Li, Neil Dantam, "Sample-Driven Connectivity Learning for Motion Planning", International Conference on Robotics and Automation (ICRA), 2023. <a href="pdfs/li2023sdcl.pdf">Download</a>. 
+            <div class="media">
+                            <img src="img/narrow.gif" width="300" alt="narrow">
+                            <iframe height="220" src="https://www.youtube.com/embed/MeALkwjShzg" title="YouTube video player" allowfullscreen="">&#10;                            </iframe>
+                        </div>
+            </li>
+            </ol>
+    </li>
+</ul>
+<h3 id="HRI">Planning in HRI</h3>
+Acceptance of social robots in human-robot collaborative environments depends on the robots' sensitivity to human moral and social norms. Robot behavior that violates norms may decrease trust and lead human interactants to blame the robot and view it negatively. Hence, for long-term acceptance, social robots need to detect possible norm violations in their action plans and refuse to perform such plans, and properly explain failures. This paper integrates the Distributed, Integrated, Affect, Reflection, Cognition (DIARC) robot architecture (implemented in the Agent Development Environment (ADE)) with a novel place recognition module and a norm-aware task planner to achieve context-sensitive moral reasoning. This will allow the robot to reject inappropriate commands and comply with context-sensitive norms. In a validation scenario, our results show that the robot would not comply with a human command to violate a privacy norm in a private context.
+<ul>
+<li><strong>Summary</strong>:
+<ul>
+<li>We explore how robots can to reject inappropriate commands, comply with context-sensitive norms and properly explain failures during navigation tasks with privacy concerns. We present an integrated robotics approach to generate visual failure explanations, by combining a language-capable cognitive architecture (for recognizing intent behind commands), an object- and location-based context recognition system (for identifying the locations of people and classifying the context in which those people are situated) and an infeasibility proof-based motion planner (for explaining planning failures on the basis of contextually mediated privacy concerns).</li>
+</ul>
+</li>
+</ul>
+<ul>
+    <li><strong>Publications</strong>
+        <ol>
+            <li>Sihui Li, Sriram Siva, Terran Mott, Tom Williams, Hao Zhang, and Neil Dantam, "Failure Explanation in Privacy-Sensitive Contexts: An Integrated Systems Approach", International Symposium on Robot and Human Interactive Communication (RO-MAN), 2023. <a href="pdfs/li2023context.pdf">Download</a>.
+                        <div class="media">
+                            <img src="img/context.png" width="450" alt="context">
+                        </div>
+            </li>
+            <li>Ryan Blake Jackson, Sihui Li, Santosh Balajee Banisetty, Sriram Siva, Hao Zhang, Neil Dantam, and Tom Williams. "An Integrated Approach to Context-Sensitive Moral Cognition in Robot Cognitive Architectures", IROS 2021, in finalists for Best Paper Award on Cognitive Robotics. [Download](pdfs/li2021context.pdf).<a href="pdfs/li2021context.pdf">Download</a>. 
+            <div class="media">
+                            <img src="img/hri-arch.png" alt="hri">
+                        </div>
+            </li>
+            </ol>
+    </li>
+</ul>
+<h3 id="TAMP">Task and Motion Planning</h3>
+<p>coming soon</p>
+<h3 id="teleop">Teleoperation</h3>
+<p>coming soon</p>
+</div>
+</body>
+
+</html>
